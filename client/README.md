@@ -1,12 +1,55 @@
-# React + Vite
+# 🏨 Hotel Booking Website | MERN Stack Full Stack Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **fully functional Hotel Booking Web App** built using the **MERN Stack** (MongoDB, Express.js, React.js, Node.js). It allows users to browse hotels, view details, book rooms, and make payments online. It also includes an **Admin Dashboard** for hotel management.
 
-Currently, two official plugins are available:
+> 🔐 Authentication is handled using [Clerk](https://clerk.dev/), and payments are integrated using [Stripe](https://stripe.com/). Email confirmation is sent after successful booking.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 UI Preview
+
+
+
+## ✨ Features
+
+- 🔐 **Clerk Authentication** (Sign In / Sign Up / Profile)
+- 🏨 Browse hotels and see full details
+- 📅 Book hotel rooms
+- 📬 Receive email confirmation after booking
+- 💳 Stripe payment gateway integration
+- 🛠️ Admin Dashboard (Add/Edit Hotels & View Bookings)
+- 🌐 Deployed with Vercel
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology    | Description                  |
+|---------------|------------------------------|
+| **Frontend**  | React.js, Tailwind CSS       |
+| **Backend**   | Node.js, Express.js          |
+| **Database**  | MongoDB, Mongoose            |
+| **Auth**      | Clerk.dev                    |
+| **Payments**  | Stripe                       |
+| **Emailing**  | NodeMailer                   |
+| **Deployment**| Vercel                       |
+
+---
+
+## 📂 Project Structure
+
+```bash
+├── client/             # React frontend
+│   ├── components/
+│   ├── pages/
+│   ├── App.js
+│   └── ...
+├── server/             # Node.js backend
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── ...
+├── .env
+├── package.json
+└── README.md
