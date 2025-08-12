@@ -8,6 +8,10 @@ This is a **fully functional Hotel Booking Web App** built using the **MERN Stac
 
 
 ## 📸 UI Preview
+<img width="1916" height="958" alt="image" src="https://github.com/user-attachments/assets/d0f7feb7-5668-4631-818c-a52f522a49b2" />
+<img width="1918" height="960" alt="image" src="https://github.com/user-attachments/assets/06c8ec8f-b257-4068-9035-44a2cd5bd059" />
+<img width="1919" height="960" alt="image" src="https://github.com/user-attachments/assets/8a94bc6b-3729-4fb1-bdb4-60fb6281d79d" />
+
 
 
 
